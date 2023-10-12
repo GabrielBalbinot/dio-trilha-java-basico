@@ -6,6 +6,14 @@ import java.util.List;
 public class MusicPlayer implements MusicPlayerInterface {
 	
 	List<Music> playlist = new ArrayList<Music>();
+	
+	public MusicPlayer() {
+		
+	}
+
+	public List<Music> getPlaylist() {
+		return playlist;
+	}
 
 	@Override
 	public void playMusic() {
