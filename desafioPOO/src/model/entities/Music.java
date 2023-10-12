@@ -4,7 +4,7 @@ public class Music {
 	
 	private String name;
 	private Integer durationInSeconds;
-	
+		
 	public Music(String name, Integer duration) {
 		this.name = name;
 		this.durationInSeconds = duration;
