@@ -4,7 +4,7 @@ public class Robot {
 	
 	private Behavior behavior;
 	
-	public void setehavior(Behavior behavior) {
+	public void setBehavior(Behavior behavior) {
 		this.behavior = behavior;
 	}
 	
